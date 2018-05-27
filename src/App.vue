@@ -23,8 +23,8 @@ export default {
   data() {
     return {
       parameters: {
-        dist: 12,
-        time: 5,
+        dist: 120,
+        time: 50,
         perKilomiters: 0.185,
         perMinutes: 0.025,
         reservation: 0.9
@@ -47,18 +47,18 @@ export default {
       if (data.firstAddress != undefined) {
         this.addresses.firstAddress = data.firstAddress;
         console.info(
-          "First Address returned: ",
+          "First Address: ",
           this.addresses.firstAddress,
-          "; Second Address returned: ",
+          "; Second Address: ",
           this.addresses.secondAddress
         );
       }
       if (data.secondAddress != undefined) {
         this.addresses.secondAddress = data.secondAddress;
         console.info(
-          "First Address returned: ",
+          "First Address: ",
           this.addresses.firstAddress,
-          "; Second Address returned: ",
+          "; Second Address: ",
           this.addresses.secondAddress
         );
       }

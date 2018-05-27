@@ -14,7 +14,6 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 
 p {
   font-weight: bold;
